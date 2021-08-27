@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "aotDir": "./dist",
+        "target": "es2019",
+        "module": "commonJS", // especifica los import y require
+        "allowJs": true,
+
+    }
+}
