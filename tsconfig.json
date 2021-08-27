@@ -4,6 +4,7 @@
         "target": "es2019",
         "module": "commonJS", // especifica los import y require
         "allowJs": true,
+        "strictNullChecks": true
 
     }
 }
