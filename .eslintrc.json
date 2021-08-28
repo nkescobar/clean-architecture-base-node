@@ -4,8 +4,6 @@
         "project": "./tsconfig.json"
     },
     "rules": {
-        "@typescript-eslint/no-redeclare": "off",
-        "strictNullChecks": "off",
-        "semi": [1, "always"]
+        "@typescript-eslint/no-redeclare": "off"
     }
 }
