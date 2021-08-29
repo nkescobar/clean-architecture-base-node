@@ -1,1 +1,1 @@
-export { RegisterVehicle } from './register-vehicle'
+export { RegisterVehicle } from './register-vehicle.controller'

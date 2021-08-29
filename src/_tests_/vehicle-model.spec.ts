@@ -1,7 +1,7 @@
-import { VechicleModel } from '../models/vehicle-model.model'
+import { VechicleModel } from '../models'
 
-describe('Clasess', () => {
-  it('Class VehicleModel', () => {
+describe('Class VehicleModel', () => {
+  it('Deberia analizar los datos de la clase', () => {
     const vehicleMdel = new VechicleModel('Nissan', 'DXT', 2020)
     expect(vehicleMdel.getName()).toEqual('Nissan')
     expect(vehicleMdel.getModel()).toEqual('DXT')

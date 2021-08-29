@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1630249745988" clover="3.2.0">
-  <project timestamp="1630249745988" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="6" elements="24" coveredelements="23" complexity="0" loc="14" ncloc="14" packages="3" files="4" classes="4"/>
-    <package name="controllers">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\controllers\index.ts">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1630250917721" clover="3.2.0">
+  <project timestamp="1630250917721" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="3" methods="12" coveredmethods="12" elements="38" coveredelements="37" complexity="0" loc="22" ncloc="22" packages="2" files="5" classes="5"/>
     <package name="controllers.vehicle">
       <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="index.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\controllers\vehicle\index.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
       </file>
-      <file name="register-vehicle.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\controllers\vehicle\register-vehicle.ts">
+      <file name="register-vehicle.controller.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\controllers\vehicle\register-vehicle.controller.ts">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
@@ -25,10 +18,25 @@
       </file>
     </package>
     <package name="models">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <file name="vehicle-model.model.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\models\vehicle-model.model.ts">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+      <file name="foo.model.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\models\foo.model.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\models\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+      </file>
+      <file name="vehicle.model.ts" path="C:\Proyectos\git-repos\dev-node\curso-tdd\src\models\vehicle.model.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
