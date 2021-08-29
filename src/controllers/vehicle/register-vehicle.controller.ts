@@ -1,5 +1,6 @@
+import { HttpRequestInterface, HttpResponseInterface } from '../../interfaces'
 export class RegisterVehicle {
-  handle (httpRequest: any): any {
+  handle (httpRequest: HttpRequestInterface): HttpResponseInterface {
     if (!httpRequest.body.name) {
       return {
         statusCode: 400,
@@ -11,6 +12,11 @@ export class RegisterVehicle {
         statusCode: 400,
         body: new Error('error in the model')
       }
+    }
+
+    return {
+      statusCode: 200,
+      body: null
     }
   }
 }
