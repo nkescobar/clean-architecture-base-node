@@ -1,4 +1,4 @@
-import { FoodModel } from '../models'
+import { FoodModel } from '../../models'
 describe('Class FoodModel', () => {
   it('Deberia analizar los datos de la clase', () => {
     const food = new FoodModel({
