@@ -1,3 +1,4 @@
+import { VehicleHelper } from '../..//helpers'
 import { VechicleModel } from '../../models'
 
 describe('Class VehicleModel', () => {
@@ -14,5 +15,10 @@ describe('Class VehicleModel', () => {
     expect(vehicleMdel.getYear()).toBe(2020)
     expect(vehicleMdel.getPrice()).toBe(1500)
     expect(vehicleMdel.getInventory()).toBeTruthy()
+  })
+
+  it('Deberia probar el VehicleHelper', () => {
+    const vehicleHelper = new VehicleHelper()
+    expect(vehicleHelper).toEqual(new VehicleHelper())
   })
 })
