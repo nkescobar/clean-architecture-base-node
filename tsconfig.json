@@ -1,10 +1,20 @@
 {
     "compilerOptions": {
+        "baseUrl": "./",
         "outDir": "./dist",
-        "target": "es2019",
-        "module": "commonJS", // especifica los import y require
+        "target": "es6",
+        "module": "commonjs", // especifica los import y require
+        "lib": [
+          "es2020",
+        ],
         "allowJs": true,
-        "strictNullChecks": true
+        "strict": false,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "typeRoots": ["node_modules/@types"],
+        "paths": {
+            "@controllers": ["src/controllers"],
+          }
 
     }
 }
