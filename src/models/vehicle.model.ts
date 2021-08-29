@@ -1,23 +1,25 @@
+import { VehicleHelper } from '../helpers'
 export class VechicleModel {
-  private readonly name: string
-  private readonly model: string
-  private readonly year: number
-
-  constructor (name: string, model: string, year: number) {
-    this.name = name
-    this.model = model
-    this.year = year
+  constructor (private readonly vehicle: VehicleHelper) {
   }
 
   getName (): string {
-    return this.name
+    return this.vehicle.name
   }
 
   getModel (): string {
-    return this.model
+    return this.vehicle.model
   }
 
   getYear (): number {
-    return this.year
+    return this.vehicle.year
+  }
+
+  getPrice (): number {
+    return this.vehicle.price
+  }
+
+  getInventory (): boolean {
+    return this.vehicle.inventory
   }
 }
