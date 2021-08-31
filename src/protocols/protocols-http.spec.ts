@@ -1,5 +1,5 @@
-import { InvalidArgument } from '../../errors'
-import { UrlLogin } from '../../protocols'
+import { InvalidArgument } from '../errors'
+import { UrlLogin } from './protocols-http.protocol'
 
 describe('Protocols Http and Querys', () => {
   test('Url login', () => {

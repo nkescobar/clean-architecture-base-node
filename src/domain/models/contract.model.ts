@@ -1,4 +1,4 @@
-import { IContractor } from '../interfaces'
+import { IContractor } from '../../interfaces'
 export class ContractModel {
   constructor (public contract: IContractor) {
     Object.assign(this, contract)

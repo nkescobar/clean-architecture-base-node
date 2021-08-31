@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests --watch",
-    "test-coverage": "jest --coverage",
+    "test:all": "jest",
     "test:staged": "jest --passWithNoTests",
-    "start": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/main/server/server.ts"
+    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:int": "npm test -- --watch -c jest-int-config.js",
+    "test:coverage": "npm test -- --coverage",
+    "start": "node dist/main/server/server.js",
+    "dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/main/server/server.ts"
   },
   "keywords": [],
   "author": "Nasly escobar",
@@ -17,6 +22,7 @@
     "@babel/preset-env": "^7.15.0",
     "@types/express": "^4.17.13",
     "@types/jest": "^27.0.1",
+    "@types/mongoose": "^5.11.97",
     "@types/node": "^16.7.4",
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
@@ -39,6 +45,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "fast-glob": "^3.2.7",
+    "mongoose": "^6.0.3",
     "ts-node": "^10.2.1"
   }
 }

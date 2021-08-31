@@ -1,5 +1,5 @@
 
-import { ContractModel, ContractPrime } from '../../models'
+import { ContractModel, ContractPrime } from '.'
 
 describe('Class ContractModel', () => {
   it('deberia crear contract 6 month', () => {

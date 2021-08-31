@@ -1,5 +1,5 @@
-import { FoodHelper } from '../..//helpers'
-import { FoodModel } from '../../models'
+import { FoodHelper } from './helpers'
+import { FoodModel } from './foo.model'
 describe('Class FoodModel', () => {
   it('Deberia analizar los datos de la clase', () => {
     const food = new FoodModel({

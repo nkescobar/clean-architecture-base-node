@@ -1,5 +1,5 @@
-import { VehicleHelper } from '../..//helpers'
-import { VechicleModel } from '../../models'
+import { VehicleHelper } from './helpers'
+import { VechicleModel } from './vehicle.model'
 
 describe('Class VehicleModel', () => {
   it('Deberia analizar los datos de la clase', () => {

@@ -1,4 +1,4 @@
-import { FoodHelper } from '../helpers'
+import { FoodHelper } from './helpers'
 export class FoodModel {
   constructor (private readonly foodHelper: FoodHelper) {
   }

@@ -1,5 +1,5 @@
 import { MissingFormalParameter } from '../../errors'
-import { RegisterVehicle } from '../../controllers'
+import { RegisterVehicle } from './register-vehicle.controller'
 
 describe('Controller RegisterVehicle', () => {
   test('is the name does not exist return 400', () => {
